@@ -4,6 +4,9 @@
   For the purposes of this assignment, you only need to understand that these commands
   are used to respond to user interaction with the "Donate" button.
 */
-document.getElementById('BtnDonate').addEventListener('click', function(){
+document.getElementById('BtnDonate').addEventListener('click', function sayHello(){
+  console.log("Hello World!");
   //Code in here executes when the user clicks the "Donate" button.
 });
+
+sayHello();
